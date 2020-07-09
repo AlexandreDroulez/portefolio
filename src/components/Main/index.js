@@ -31,15 +31,18 @@ const Main = () => (
       <Card>
         <div className="card-container-project">
           <h2 className="card-container-project-title">Ma Clase Virtuelle</h2>
-          <ReactPlayer controls={true} width="300" height="100" url="https://youtu.be/Df1AQhJlm5c?t=3681" />
+          <ReactPlayer controls width="300" height="100" url="https://youtu.be/Df1AQhJlm5c?t=3681" />
           <p className="card-container-project-info">React/Redux/Nodejs/Postgresql</p>
         </div>
       </Card>
       <Card>
         <h2 className="card-container-project-title">Liens</h2>
-        <div><a target="_blank" href="https://www.linkedin.com/in/alexandre-droulez-b20253185/">Linkedin</a></div>
-        <div><a target="_blank" href="https://github.com/AlexandreDroulez">GitHub</a></div>
-
+        <div>
+          <a target="_blank" href="https://www.linkedin.com/in/alexandre-droulez-b20253185/">Linkedin</a>
+        </div>
+        <div>
+          <a target="_blank" href="https://github.com/AlexandreDroulez">GitHub</a>
+        </div>
       </Card>
     </div>
   </div>

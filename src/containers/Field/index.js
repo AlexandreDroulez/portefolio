@@ -1,15 +1,16 @@
 /* eslint-disable import/no-unresolved */
 import { connect } from 'react-redux';
 
-import ButtonFirst from 'src/components/Buttons/ButtonFirst';
+import Field from 'src/components/AllForms/Field';
 
-const mapStateToProps = () => ({
+const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = () => ({
+
 });
 
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(ButtonFirst);
+)(Field);

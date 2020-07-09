@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 
 import App from 'src/components/App';
 
-const mapStateToProps = () => ({
+const mapStateToProps = (state) => ({
+  contactModal: state.modal.contactModal,
 });
 
 const mapDispatchToProps = () => ({

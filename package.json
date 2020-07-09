@@ -51,6 +51,7 @@
     "react": "*",
     "react-dom": "*",
     "react-enhancer": "^1.0.5",
+    "react-modal": "^3.11.2",
     "react-player": "^2.5.0",
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
