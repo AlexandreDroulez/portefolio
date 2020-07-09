@@ -51,10 +51,12 @@
     "react": "*",
     "react-dom": "*",
     "react-enhancer": "^1.0.5",
+    "react-player": "^2.5.0",
     "react-redux": "^7.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "redux": "^4.0.5",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "video-react": "^0.14.1"
   }
 }
