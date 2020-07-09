@@ -1,8 +1,15 @@
 @import 'reset';
 @import 'vars';
+html {
+  height: 100%;
+  background-image: url('../assets/images/mainFontEcran.jpg');
+  background-repeat: no-repeat;
 
+}
 body {
   font-family: sans-serif;
+  
+
 }
 
 /* 
