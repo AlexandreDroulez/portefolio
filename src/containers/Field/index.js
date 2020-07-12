@@ -1,7 +1,7 @@
 /* eslint-disable import/no-unresolved */
 import { connect } from 'react-redux';
 
-import Field from 'src/components/AllForms/Field';
+import Field from 'src/components/Field';
 
 const mapStateToProps = (state) => ({
 });

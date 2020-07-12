@@ -27,7 +27,7 @@ const Field = ({
       <input
         // React - state
         value={value}
-        // required="required"
+        required="required"
         onChange={handleChange}
         // infos de base
         id={inputId}

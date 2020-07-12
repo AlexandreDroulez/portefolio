@@ -1,0 +1,15 @@
+.button-submit {
+  display: inline-block;
+  padding: 0 1em;
+  background: transparent;
+  border: 2px solid #969696;;
+  border-radius: 15px;
+  color: #969696;;
+  transition: .2s;
+  cursor: pointer;
+  &:hover{
+    background: rgb(192, 156, 38);
+    color: #fff;
+    transform: translatey(2px);
+  }
+}

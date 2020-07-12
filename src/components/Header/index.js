@@ -1,7 +1,7 @@
 // == Import npm
 import React from 'react';
 // import logo
-import dragons from '../../assets/images/logo.jpg';
+import logo from '../../assets/images/js.png';
 
 // import containers
 import ButtonContact from 'src/containers/Buttons/ButtonContact';
@@ -11,10 +11,12 @@ import './styles.scss';
 // == Composant
 const Header = () => (
   <div className="header">
-    <img className="header-logo" src={dragons}></img>
+    <img className="header-logo" src={logo}></img>
     <ButtonContact />
   </div>
 );
 
 // == Export
 export default Header;
+
+// https://tenor.com/8UE2.gif

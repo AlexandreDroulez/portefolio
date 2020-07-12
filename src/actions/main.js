@@ -1,6 +1,7 @@
-// export const CHANGE_MODAL = 'CHANGE_MODAL';
+export const CHANGE_VALUE_IN_FORM = 'CHANGE_VALUE_IN_FORM';
 
-// export const toggleModals = (name) => ({
-//   type: CHANGE_MODAL,
-//   name,
-// });
+export const changeValueInForm = (name, value) => ({
+  type: CHANGE_VALUE_IN_FORM,
+  name,
+  value,
+});

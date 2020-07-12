@@ -1,7 +1,6 @@
-/* eslint-disable import/no-unresolved */
 import { connect } from 'react-redux';
 
-import FormFirst from 'src/components/Forms/FormFirst';
+import ButtonSubmit from 'src/components/Buttons/ButtonSubmit';
 
 const mapStateToProps = () => ({
 });
@@ -12,4 +11,4 @@ const mapDispatchToProps = () => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(FormFirst);
+)(ButtonSubmit);

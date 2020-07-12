@@ -1,8 +1,8 @@
 .header {
-  background-color: black;
   display: flex;
   justify-content: space-between;
+  padding: 1em;
   &-logo {
-    height: 50px;
+    height: 40px;
   }
 }
