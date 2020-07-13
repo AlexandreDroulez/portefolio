@@ -10,9 +10,9 @@ import './styles.scss';
 const TitleFirst = () => (
   <h1 className="main-title-first text-focus-in">
     <div className="letter-hello ">
-      Hello
+      Bonjour
     </div>
-    <div>I'am Alexandre</div>
+    <div>Alexandre</div>
     <div>
       Développeur web
     </div>
